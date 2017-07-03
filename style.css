@@ -1,0 +1,16 @@
+@import url(reset.css);
+
+body{background-color:#000;}
+.wrapper{width: 500px; margin: 100px auto;}
+.graph li{margin: 10px 0; background-color: #333; border-radius: 5px; position: relative}
+.graph li:before{content: '';display: block; position: absolute; left:-63px;top:0px; background-size: 63px; background-repeat: no-repeat; width: 63px; height:63px;}
+
+.graph li.ps:before{background-image: url(../img/icon01.png)}
+.graph li.ai:before{background-image: url(../img/icon02.png)}
+.graph li.id:before{background-image: url(../img/icon03.png)}
+.graph li.ae:before{background-image: url(../img/icon04.png)}
+.graph li.fl:before{background-image: url(../img/icon05.png)}
+
+.graph li h2{padding: 5px 10px 2px; font-size: 15px; background-color: #222; color:#fff; border-bottom:1px solid #666;}
+
+.graph li strong{background-color: #666; overflow: hidden; line-height: 33px; font-size: 14px; display: block; text-align: right; border-top-right-radius: 5px; border-bottom-right-radius: 5px; box-shadow: inset -5px -5px 5px rgba(0,0,0,0.3); letter-spacing:5px;height:30px; width: 0; }
